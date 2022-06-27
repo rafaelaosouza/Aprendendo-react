@@ -5,6 +5,8 @@ import FirstComponent from './components/FirstComponent';
 import AnotherComponent from './components/AnotherComponent';
 import Images from './components/Images';
 import Hooks from './components/Hooks';
+import List from './components/List';
+import RenderConst from './components/RenderConst';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <AnotherComponent />
       <Images />
       <Hooks />
+      <List />
+      <RenderConst x={7} y={10} />
     </div>
   );
 }
